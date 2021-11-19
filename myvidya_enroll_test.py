@@ -19,7 +19,12 @@ login.click()
 
 time.sleep(5)
 
-enroll = driver.find_elements(By.XPATH, '//*[@id="courseListDiv"]/div[1]/div/div/a')
+course = driver.find_element(By.CSS_SELECTOR, "img.card-img-top.img-responsive")
+course.click()
+
+time.sleep(5)
+
+enroll = driver.find_element(By.CSS_SELECTOR, "a#deselect-all.btn")
 enroll.click()
 
 time.sleep(10)
