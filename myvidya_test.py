@@ -59,7 +59,7 @@ if __name__ == "__main__":
     latest_file = max(list_of_files, key=os.path.getctime)
 
     fromaddr = "manmeetkundra7959@gmail.com"
-    toaddr = ["rajharsh662@gmail.com", "masterRaNa@protonmail.com","rgrohit1boy@gmail.com"]
+    toaddr = ["varun.mishra@traxof.com","manis.kumar@gmail.com"]
 
     for addr in toaddr:
         msg = MIMEMultipart()
